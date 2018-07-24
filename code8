@@ -13,7 +13,7 @@ while(b);
      hd=ideal(w,N);    %得到理想低通滤波器
      k=menu('请选择窗口类型:','boxcar','hamming','hanning','blackman');
      if k==1 
-        B=boxcar(N);
+         B=boxcar(N);
         string=['Boxcar','N=',num2str(N)];
      else if k==2 
         B=hamming(N);
