@@ -53,7 +53,8 @@ while(b);
      plot(m/pi,db);
      axis([0,1,-100,0]);
      xlabel('w/pi');
-     ylabel('dB');
+     ylabel('dB');  
+     
      title('衰减特性(dB)');
      grid;
      subplot(2,2,3);
