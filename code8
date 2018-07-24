@@ -29,7 +29,7 @@ while(b);
          end
      end
      
-     h=hd.*(B)';    %得到FIR数字滤波器?
+     h=hd.*(B)';     %得到FIR数字滤波器?
      [H,m]=freqz(h,[1],1024,'whole');   %求其频率响应
      mag=abs(H);     %得到幅值
      db=20*log10((mag+eps)/max(mag));
